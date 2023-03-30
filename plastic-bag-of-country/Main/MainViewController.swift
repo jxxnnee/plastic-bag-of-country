@@ -7,11 +7,13 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
-
+final class MainViewController: ViewController<MainView> {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.rootView.backgroundColor = .brown
     }
 }
 
