@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 public protocol Presenter: AnyObject {
     associatedtype Input
@@ -13,4 +14,8 @@ public protocol Presenter: AnyObject {
     
     var input: Input { get }
     var output: Output { get }
+    var disposeBag: DisposeBag { get }
+    var interactor: InteractorProtocol { get }
+    
+    init(interactor: InteractorProtocol)
 }
