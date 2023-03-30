@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let rootView = MainView()
         let rootViewController = MainViewController(rootView: rootView)
+        rootViewController.binder = MainPresenter()
         
         self.window = UIWindow(windowScene: scene)
         self.window?.rootViewController = rootViewController

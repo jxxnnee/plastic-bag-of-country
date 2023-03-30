@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import RxSwift
 
 final class MainViewController: ViewController<MainView> {
+    // MARK: Properties
+    var disposeBag: DisposeBag = DisposeBag()
+    var binder: MainPresenter?
     
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,3 +22,10 @@ final class MainViewController: ViewController<MainView> {
     }
 }
 
+
+
+extension MainViewController: Reactor {
+    func bind(_ binder: MainPresenter) {
+        
+    }
+}

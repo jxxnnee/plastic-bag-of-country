@@ -17,16 +17,23 @@ final class MainPresenter: Presenter {
         
     }
     
+    
+    // MARK: Properties
     var input: Input = Input()
     var output: Output = Output()
+    
     var disposeBag: DisposeBag = DisposeBag()
     var interactor: InteractorProtocol
     
+    
+    // MARK: Life Cycle
     init(interactor: InteractorProtocol = Interactor.default) {
         self.interactor = interactor
         self.bind()
     }
     
+    
+    // MARK: Bind
     private func bind() {
         
     }

@@ -20,6 +20,7 @@
 
     # Util
     def util
+	pod 'WeakMapTable'
 	pod 'Then'
     end
 

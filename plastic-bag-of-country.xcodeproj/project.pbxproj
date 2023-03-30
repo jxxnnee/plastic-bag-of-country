@@ -23,6 +23,7 @@
 		3A18635B29D5970E004D7477 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18635A29D5970E004D7477 /* Target.swift */; };
 		3A18635E29D5995D004D7477 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18635D29D5995D004D7477 /* MainView.swift */; };
 		3A18636029D59965004D7477 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18635F29D59965004D7477 /* MainPresenter.swift */; };
+		3A18636329D5ACD0004D7477 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18636229D5ACD0004D7477 /* Reactor.swift */; };
 		6820F2C263D938441E5B1104 /* Pods_plastic_bag_of_countryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EF96E8B8C1ECAD68DF075B /* Pods_plastic_bag_of_countryUITests.framework */; };
 		76EE5A5969F3BA7681094C49 /* Pods_plastic_bag_of_country.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C63E76F5E45BF7CD8D913 /* Pods_plastic_bag_of_country.framework */; };
 		F4B35D79ECE85F99843397D1 /* Pods_plastic_bag_of_countryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A03E753F742DD99C9F35044 /* Pods_plastic_bag_of_countryTests.framework */; };
@@ -70,6 +71,7 @@
 		3A18635A29D5970E004D7477 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		3A18635D29D5995D004D7477 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3A18635F29D59965004D7477 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		3A18636229D5ACD0004D7477 /* Reactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactor.swift; sourceTree = "<group>"; };
 		5ED0DEC7E38EC784FE592EF7 /* Pods-plastic-bag-of-countryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-countryTests.debug.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-countryTests/Pods-plastic-bag-of-countryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B81D7B5CCB5125432CBA825 /* Pods-plastic-bag-of-country.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-country.release.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country.release.xcconfig"; sourceTree = "<group>"; };
 		83EF96E8B8C1ECAD68DF075B /* Pods_plastic_bag_of_countryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plastic_bag_of_countryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +159,7 @@
 				3A16982329D57828003BABA7 /* SceneDelegate.swift */,
 				3A16985229D57896003BABA7 /* Interfaces */,
 				3A18635C29D5994D004D7477 /* Main */,
+				3A18636129D5A19B004D7477 /* Interactors */,
 				3A16982A29D57829003BABA7 /* Assets.xcassets */,
 				3A16982C29D57829003BABA7 /* LaunchScreen.storyboard */,
 				3A16982F29D57829003BABA7 /* Info.plist */,
@@ -190,6 +193,7 @@
 				3A18635629D59604004D7477 /* Interactor.swift */,
 				3A18635829D596AF004D7477 /* Router.swift */,
 				3A18635A29D5970E004D7477 /* Target.swift */,
+				3A18636229D5ACD0004D7477 /* Reactor.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -202,6 +206,13 @@
 				3A18635F29D59965004D7477 /* MainPresenter.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3A18636129D5A19B004D7477 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +439,7 @@
 				3A16985829D57FA3003BABA7 /* Presenter.swift in Sources */,
 				3A16982629D57828003BABA7 /* MainViewController.swift in Sources */,
 				3A18635E29D5995D004D7477 /* MainView.swift in Sources */,
+				3A18636329D5ACD0004D7477 /* Reactor.swift in Sources */,
 				3A18635B29D5970E004D7477 /* Target.swift in Sources */,
 				3A16982229D57828003BABA7 /* AppDelegate.swift in Sources */,
 				3A16985629D578E9003BABA7 /* View.swift in Sources */,
