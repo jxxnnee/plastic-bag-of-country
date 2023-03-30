@@ -18,6 +18,7 @@
 		3A16984529D5782A003BABA7 /* plastic_bag_of_countryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16984429D5782A003BABA7 /* plastic_bag_of_countryUITestsLaunchTests.swift */; };
 		3A16985429D578DC003BABA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985329D578DC003BABA7 /* ViewController.swift */; };
 		3A16985629D578E9003BABA7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985529D578E9003BABA7 /* View.swift */; };
+		3A16985829D57FA3003BABA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985729D57FA3003BABA7 /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3A16984429D5782A003BABA7 /* plastic_bag_of_countryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plastic_bag_of_countryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A16985329D578DC003BABA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A16985529D578E9003BABA7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		3A16985729D57FA3003BABA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				3A16985329D578DC003BABA7 /* ViewController.swift */,
 				3A16985529D578E9003BABA7 /* View.swift */,
+				3A16985729D57FA3003BABA7 /* Presenter.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A16985829D57FA3003BABA7 /* Presenter.swift in Sources */,
 				3A16982629D57828003BABA7 /* CiewController.swift in Sources */,
 				3A16982229D57828003BABA7 /* AppDelegate.swift in Sources */,
 				3A16985629D578E9003BABA7 /* View.swift in Sources */,
