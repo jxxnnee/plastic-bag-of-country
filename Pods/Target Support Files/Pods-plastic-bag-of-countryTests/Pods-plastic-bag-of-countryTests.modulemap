@@ -1,0 +1,6 @@
+framework module Pods_plastic_bag_of_countryTests {
+  umbrella header "Pods-plastic-bag-of-countryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

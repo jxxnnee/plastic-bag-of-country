@@ -19,6 +19,9 @@
 		3A16985429D578DC003BABA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985329D578DC003BABA7 /* ViewController.swift */; };
 		3A16985629D578E9003BABA7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985529D578E9003BABA7 /* View.swift */; };
 		3A16985829D57FA3003BABA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16985729D57FA3003BABA7 /* Presenter.swift */; };
+		6820F2C263D938441E5B1104 /* Pods_plastic_bag_of_countryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EF96E8B8C1ECAD68DF075B /* Pods_plastic_bag_of_countryUITests.framework */; };
+		76EE5A5969F3BA7681094C49 /* Pods_plastic_bag_of_country.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C63E76F5E45BF7CD8D913 /* Pods_plastic_bag_of_country.framework */; };
+		F4B35D79ECE85F99843397D1 /* Pods_plastic_bag_of_countryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A03E753F742DD99C9F35044 /* Pods_plastic_bag_of_countryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102ADB1D0B080A9ABC3F2BA8 /* Pods-plastic-bag-of-countryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-countryTests.release.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-countryTests/Pods-plastic-bag-of-countryTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D22EF232E268EF1F37D91B1 /* Pods-plastic-bag-of-country.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-country.debug.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country.debug.xcconfig"; sourceTree = "<group>"; };
+		2A03E753F742DD99C9F35044 /* Pods_plastic_bag_of_countryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plastic_bag_of_countryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ABA93209FF631ADECF98B2E /* Pods-plastic-bag-of-countryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-countryUITests.release.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-countryUITests/Pods-plastic-bag-of-countryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3A16981E29D57828003BABA7 /* plastic-bag-of-country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plastic-bag-of-country.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A16982129D57828003BABA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A16982329D57828003BABA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +62,11 @@
 		3A16985329D578DC003BABA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A16985529D578E9003BABA7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		3A16985729D57FA3003BABA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		5ED0DEC7E38EC784FE592EF7 /* Pods-plastic-bag-of-countryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-countryTests.debug.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-countryTests/Pods-plastic-bag-of-countryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B81D7B5CCB5125432CBA825 /* Pods-plastic-bag-of-country.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-country.release.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country.release.xcconfig"; sourceTree = "<group>"; };
+		83EF96E8B8C1ECAD68DF075B /* Pods_plastic_bag_of_countryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plastic_bag_of_countryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C0C165D47BE53F2510A8BF /* Pods-plastic-bag-of-countryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plastic-bag-of-countryUITests.debug.xcconfig"; path = "Target Support Files/Pods-plastic-bag-of-countryUITests/Pods-plastic-bag-of-countryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8C63E76F5E45BF7CD8D913 /* Pods_plastic_bag_of_country.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plastic_bag_of_country.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EE5A5969F3BA7681094C49 /* Pods_plastic_bag_of_country.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B35D79ECE85F99843397D1 /* Pods_plastic_bag_of_countryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6820F2C263D938441E5B1104 /* Pods_plastic_bag_of_countryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DD2B0CEC80E0AAF467277AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D22EF232E268EF1F37D91B1 /* Pods-plastic-bag-of-country.debug.xcconfig */,
+				6B81D7B5CCB5125432CBA825 /* Pods-plastic-bag-of-country.release.xcconfig */,
+				5ED0DEC7E38EC784FE592EF7 /* Pods-plastic-bag-of-countryTests.debug.xcconfig */,
+				102ADB1D0B080A9ABC3F2BA8 /* Pods-plastic-bag-of-countryTests.release.xcconfig */,
+				85C0C165D47BE53F2510A8BF /* Pods-plastic-bag-of-countryUITests.debug.xcconfig */,
+				2ABA93209FF631ADECF98B2E /* Pods-plastic-bag-of-countryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F1C71C54AD7159E220BC4F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C63E76F5E45BF7CD8D913 /* Pods_plastic_bag_of_country.framework */,
+				2A03E753F742DD99C9F35044 /* Pods_plastic_bag_of_countryTests.framework */,
+				83EF96E8B8C1ECAD68DF075B /* Pods_plastic_bag_of_countryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A16981529D57828003BABA7 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +128,8 @@
 				3A16983729D5782A003BABA7 /* plastic-bag-of-countryTests */,
 				3A16984129D5782A003BABA7 /* plastic-bag-of-countryUITests */,
 				3A16981F29D57828003BABA7 /* Products */,
+				1DD2B0CEC80E0AAF467277AA /* Pods */,
+				1F1C71C54AD7159E220BC4F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A16984829D5782A003BABA7 /* Build configuration list for PBXNativeTarget "plastic-bag-of-country" */;
 			buildPhases = (
+				564850AD0690BC76F439E4CE /* [CP] Check Pods Manifest.lock */,
 				3A16981A29D57828003BABA7 /* Sources */,
 				3A16981B29D57828003BABA7 /* Frameworks */,
 				3A16981C29D57828003BABA7 /* Resources */,
+				DF5BBBD6018528EEBCAE5BC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A16984B29D5782A003BABA7 /* Build configuration list for PBXNativeTarget "plastic-bag-of-countryTests" */;
 			buildPhases = (
+				7DA88D3ECA897FB76547D131 /* [CP] Check Pods Manifest.lock */,
 				3A16983029D5782A003BABA7 /* Sources */,
 				3A16983129D5782A003BABA7 /* Frameworks */,
 				3A16983229D5782A003BABA7 /* Resources */,
@@ -186,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A16984E29D5782A003BABA7 /* Build configuration list for PBXNativeTarget "plastic-bag-of-countryUITests" */;
 			buildPhases = (
+				B01386A93DC15D8861CC855F /* [CP] Check Pods Manifest.lock */,
 				3A16983A29D5782A003BABA7 /* Sources */,
 				3A16983B29D5782A003BABA7 /* Frameworks */,
 				3A16983C29D5782A003BABA7 /* Resources */,
@@ -269,6 +314,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564850AD0690BC76F439E4CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plastic-bag-of-country-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA88D3ECA897FB76547D131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plastic-bag-of-countryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01386A93DC15D8861CC855F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plastic-bag-of-countryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5BBBD6018528EEBCAE5BC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plastic-bag-of-country/Pods-plastic-bag-of-country-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A16981A29D57828003BABA7 /* Sources */ = {
@@ -452,12 +583,13 @@
 		};
 		3A16984929D5782A003BABA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D22EF232E268EF1F37D91B1 /* Pods-plastic-bag-of-country.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3V4F7GY548;
+				DEVELOPMENT_TEAM = 45ZBS99NG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "plastic-bag-of-country/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,7 +603,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.min--x-x.plastic-bag-of-country";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minxxx.plastic-bag-of-country";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,12 +613,13 @@
 		};
 		3A16984A29D5782A003BABA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B81D7B5CCB5125432CBA825 /* Pods-plastic-bag-of-country.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3V4F7GY548;
+				DEVELOPMENT_TEAM = 45ZBS99NG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "plastic-bag-of-country/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -500,7 +633,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.min--x-x.plastic-bag-of-country";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minxxx.plastic-bag-of-country";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -510,6 +643,7 @@
 		};
 		3A16984C29D5782A003BABA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED0DEC7E38EC784FE592EF7 /* Pods-plastic-bag-of-countryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +664,7 @@
 		};
 		3A16984D29D5782A003BABA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102ADB1D0B080A9ABC3F2BA8 /* Pods-plastic-bag-of-countryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +685,7 @@
 		};
 		3A16984F29D5782A003BABA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C0C165D47BE53F2510A8BF /* Pods-plastic-bag-of-countryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -568,6 +704,7 @@
 		};
 		3A16985029D5782A003BABA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABA93209FF631ADECF98B2E /* Pods-plastic-bag-of-countryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
